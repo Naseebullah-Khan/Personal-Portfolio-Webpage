@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+#navbar {
+  position: fixed;
+  display: flex;
+  background-color: #be3144;
+  width: 100%;
+  height: 10vh;
+}
+.nav-link {
+  flex-basis: 50%;
+  align-self: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #343639;
+  height: 100vh;
+}
+#projects {
+  background-color: #45567d;
+  text-align: center;
+}
+#list-of-projects {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.project-heading {
+  margin-top: -4px;
+  background-color: #303841;
+  text-decoration: none;
+  color: white;
+  width: 250px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#contact {
+  background-color: #303841;
+  text-align: center;
+  height: 75vh;
+}
+#profile-link {
+  font-size: x-large;
+  color: white;
+  text-decoration: none;
+}
+#footer {
+  display: flex;
+  border-top: 4px solid #be3144;
+  background-color: #303841;
+  flex-direction: row;
+  align-items: center;
+}
+.link-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  #list-of-projects {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
