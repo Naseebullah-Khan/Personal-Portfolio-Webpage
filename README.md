@@ -1,6 +1,6 @@
 # Personal-Portfolio-Webpage
 
-In order to earn the FreeCodeCamp Responsive Web Design Certificate, you must build five projects and this is the third project.
+In order to earn the FreeCodeCamp Responsive Web Design Certificate, you must build five projects and this is the fifth project.
 
 1. Survey Form
 2. Tribute Page
